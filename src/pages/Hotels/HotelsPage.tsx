@@ -279,11 +279,11 @@ function HotelsPage() {
                 ))
               ) : filteredHotels.length > 0 ? (
                 filteredHotels.map((hotel) => (
-                  <HotelCard
-                    key={hotel.id}
-                    hotel={hotel}
-                    onViewDetails={handleHotelClick}
-                  />
+                  <div key={hotel.id} onClick={() => handleHotelClick(hotel)}>
+                    <HotelCard
+                      hotel={hotel}
+                    />
+                  </div>
                 ))
               ) : (
                 <div className="col-span-full rounded-[24px] md:rounded-[32px] bg-white p-8 md:p-16 text-center shadow-xl">
