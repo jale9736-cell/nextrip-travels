@@ -146,7 +146,7 @@ function SupportPage() {
               </p>
 
               <h4 className="mt-2 text-2xl font-black text-slate-900">
-                +1 (800) 555-2030
+                +1 (805) 670-3697
               </h4>
             </div>
           </div>
